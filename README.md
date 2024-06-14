@@ -8,11 +8,13 @@ Data example: <br>
 \[ <br>
 "Some have a 24-month clock, and there are even some that have a 30-month clock.", <br>
 "They come back in and they pay less for the service but they pay more for their smartphone.“, <br>
-0], <br>
+0 <br>
+], <br>
 \[ <br>
 "Japan as a geography for us is a high transactional market.", <br>
 "The improvement in that in Q3 is obviously very high margin and also the bottom.", <br>
-1]
+1 <br>
+] <br>
 
 ### LLM.ipynb 
 此檔案主要是呼叫 Gemini 來 classify 給定的文本，並測試不同 prompt 是否有不同的結果 <br>
