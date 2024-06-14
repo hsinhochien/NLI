@@ -13,3 +13,16 @@ Data example: <br>
 "Japan as a geography for us is a high transactional market.", <br>
 "The improvement in that in Q3 is obviously very high margin and also the bottom.", <br>
 1]
+
+### LLM.ipynb 
+此檔案主要是呼叫 Gemini 來 classify 給定的文本，並測試不同 prompt 是否有不同的結果 <br>
+(需填入自己的 api key) <br>
+Prerequisites:
+* Python 3.10
+* pip install tqdm google-generativeai
+    
+### LM.ipynb
+程式是先使用預訓練模型直接預測（不進行微調），再對預訓練模型微調後，進行預測 <br>
+Prerequisites:
+* Python 3.10
+* pip install torch transformers
