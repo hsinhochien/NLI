@@ -21,10 +21,10 @@ Data example: <br>
 (需填入自己的 api key) <br>
 Prerequisites:
 * Python 3.10
-* pip install tqdm google-generativeai
+* ```pip install tqdm google-generativeai```
     
 ### LM.ipynb
 程式是先使用預訓練模型直接預測（不進行微調），再對預訓練模型微調後，進行預測 <br>
 Prerequisites:
 * Python 3.10
-* pip install torch transformers
+* ```pip install torch transformers```
