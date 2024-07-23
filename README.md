@@ -17,14 +17,14 @@ Data example: <br>
 ] <br>
 
 ### LLM.ipynb 
-此檔案主要是呼叫 Gemini 來 classify 給定的文本，並測試不同 prompt 是否有不同的結果 <br>
-(需填入自己的 api key) <br>
+This file primarily calls Gemini to classify the given text and tests whether different prompts yield different results. <br>
+(API key needs to be filled in.) <br>
 Prerequisites:
 * Python 3.10
 * ```pip install tqdm google-generativeai```
     
 ### LM.ipynb
-程式是先使用預訓練模型直接預測（不進行微調），再對預訓練模型微調後，進行預測 <br>
+The program first uses a pre-trained model for direct prediction (without fine-tuning), and then performs prediction after fine-tuning the pre-trained model. <br>
 Prerequisites:
 * Python 3.10
 * ```pip install torch transformers```
