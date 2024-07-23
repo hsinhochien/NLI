@@ -24,7 +24,7 @@ Prerequisites:
 * ```pip install tqdm google-generativeai```
     
 ### LM.ipynb
-The program first uses a pre-trained model for direct prediction (without fine-tuning), and then performs prediction after fine-tuning the pre-trained model. <br>
+This file first uses a pre-trained model for direct prediction (without fine-tuning), and then performs prediction after fine-tuning the pre-trained model. <br>
 Prerequisites:
 * Python 3.10
 * ```pip install torch transformers```
